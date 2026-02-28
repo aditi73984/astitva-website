@@ -85,7 +85,7 @@ Psychological Counselling Centre                </span>
                 <div className="bg-blue-50 p-2 rounded-lg text-[#1747A3]">
                   <Phone size={16} />
                 </div>
-                <a href="tel:+919876543210" className="hover:text-[#1747A3] transition-colors font-bold">+91 98765 43210</a>
+                <a href="tel:+919369148078" className="hover:text-[#1747A3] transition-colors font-bold">+91 93691 48078</a>
               </li>
               <li className="flex items-center gap-4">
                 <div className="bg-blue-50 p-2 rounded-lg text-[#1747A3]">
