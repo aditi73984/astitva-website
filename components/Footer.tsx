@@ -91,7 +91,7 @@ Psychological Counselling Centre                </span>
                 <div className="bg-blue-50 p-2 rounded-lg text-[#1747A3]">
                   <Mail size={16} />
                 </div>
-                <a href="mailto:info@astitva.com" className="hover:text-[#1747A3] transition-colors font-bold">info@astitva.com</a>
+                <a href="mailto:astitva.psy@gmail.com" className="hover:text-[#1747A3] transition-colors font-bold">astitva.psy@gmail.com</a>
               </li>
             </ul>
           </div>
@@ -104,9 +104,9 @@ Psychological Counselling Centre                </span>
             </p>
             <div className="flex gap-3">
               {[
-                { Icon: Instagram, href: '#' },
-                { Icon: Facebook, href: '#' },
-                { Icon: Linkedin, href: '#' }
+                { Icon: Instagram, href: 'https://www.instagram.com/astitva_psychological/' },
+                { Icon: Facebook, href: 'https://www.facebook.com/share/1LLmnEAxtG/' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/malveeka-rao-b85737155/' }
               ].map((item, i) => (
                 <a 
                   key={i} 
