@@ -226,7 +226,7 @@ const AstitvaInternship = () => {
             <div className="flex justify-center">
               <motion.a 
                 href="/contact"
-                whileHover={{ scale: 1.05, shadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
+                whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-blue-600 text-white px-12 py-5 rounded-full font-black text-xl flex items-center justify-center gap-3 shadow-2xl shadow-blue-200 group transition-all"
               >

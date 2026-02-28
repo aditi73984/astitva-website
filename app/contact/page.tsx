@@ -16,10 +16,16 @@ const ContactSection = () => {
     }
   };
 
-  const cardVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: { y: 0, opacity: 1, transition: { duration: 0.6, ease: "easeOut" } }
-  };
+ const cardVariants = {
+  hidden: { y: 50, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.6
+    }
+  }
+};
 
   const infoDetails = [
     { icon: <Clock />, title: "Session Duration", desc: "1 Hour Professional Session", color: "blue" },

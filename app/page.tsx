@@ -9,7 +9,6 @@ import {
   CalendarCheck, UserRound, MessageSquare, LineChart, ChevronRight, Target, Eye
 } from 'lucide-react';
 
-import { MediaCard, MediaCardItem } from '@/components/ui/media-card';
 
 const HomePage: React.FC = () => {
   const router = useRouter();
