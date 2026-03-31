@@ -67,7 +67,7 @@ const HomePage: React.FC = () => {
         </div>
 
         <div className="container mx-auto px-6 relative z-10 py-12">
-          <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="max-w-4xl">
+          <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="max-w-4xl mx-auto text-center sm:text-left">
             <motion.span variants={fadeInUp} className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-cyan-200 text-xs font-bold uppercase tracking-widest mb-8 backdrop-blur-md">
               <Sparkles size={14} /> Professional Mental Health Support
             </motion.span>
@@ -186,8 +186,8 @@ const HomePage: React.FC = () => {
             </div>
             <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
               <ClipboardList className="text-emerald-500 mb-4" />
-              <h3 className="text-xl font-bold mb-2">Community Survey</h3>
-              <p className="text-slate-500 mb-6 text-sm">Help us build better support systems by participating in our mental health survey.</p>
+              <h3 className="text-xl font-bold mb-2">Special Offer for Students</h3>
+              <p className="text-slate-500 mb-6 text-sm">New discount available for students seeking mental health services.</p>
               <Link href="/services/community-outreach" className="text-blue-600 font-bold flex items-center gap-2">Take Survey <ArrowRight size={16}/></Link>
             </div>
           </div>

@@ -13,7 +13,8 @@ const MalveekaRaoProfile = () => {
 
   const member = {
     name: "Dr. Malveeka Rao",
-    role: "Founder and Director",
+    role: "Founding Director",
+    roleSecondary: "Senior Consultant Clinical Psychotherapist & Psychologist",
     experience: "25+ Years of Clinical Expertise",
     // FIXED PATH: Pointer to your public/images/ folder
     img: "/images/malveeka_p.jpeg", 
@@ -33,17 +34,109 @@ const MalveekaRaoProfile = () => {
       "Diploma in Guidance Psychology – Bureau of Psychology, U.P."
     ],
     timeline: [
-      { year: "2003 – Present", role: "Psychologist & Counselor", place: "Astitva Psychological Counselling Centre" },
-      { year: "2019 – 2022", role: "Guest Lecturer – Psychology", place: "SHUATS, Naini, Prayagraj" },
-      { year: "2017 – 2018", role: "Consultant & Guest Faculty", place: "JIMARS (Viklang Kendra), Allahabad" },
-      { year: "2007 – 2010", role: "Project Psychologist", place: "Central Social Welfare Board" }
+      {
+        year: "2003 – Present",
+        role: "Psychologist & Counselor",
+        place: "Practicing as a clinical psychologist and counselor, providing counseling, psychological assessment, and rehabilitation services."
+      },
+      {
+        year: "2019 – 2022",
+        role: "Guest Lecturer – Psychology",
+        place: "Sam Higginbottom University of Agriculture, Technology & Sciences (SHUATS), Naini, Prayagraj."
+      },
+      {
+        year: "2017 – 2018",
+        role: "Guest Lecturer – MSW (Psychology)",
+        place: "Mahatma Gandhi Antarrashtriya Hindi Vishwavidyalaya, Allahabad Centre (Wardha)."
+      },
+      {
+        year: "2017 – 2018",
+        role: "Consultant & Guest Faculty – D.Ed Special Education",
+        place: "JIMARS (Viklang Kendra), Allahabad."
+      },
+      {
+        year: "2007 – 2010",
+        role: "Project Psychologist – Family Counselling",
+        place: "Central Social Welfare Board project conducted by Poonam Sewa Sansthan (NGO), Naini, Allahabad."
+      },
+      {
+        year: "2005 – 2007",
+        role: "Guest Lecturer – Special Education (H.I.)",
+        place: "Rajiv Gandhi PG College & Jamunipur Kotwa Degree College, Allahabad."
+      },
+      {
+        year: "2005 – 2006",
+        role: "Project Psychologist – Career Counselling",
+        place: "Sarvangin Mahila Evam Yuva Bal Vikas Samiti (NGO), Bhadohi."
+      },
+      {
+        year: "2003 – 2011",
+        role: "Psychologist & Counselor",
+        place: "Disabled Appliances Rehabilitation & Training Society, Allahabad."
+      }
     ],
     awards: [
-      "Living Legend of C.M.P. Degree College – Diamond Jubilee (2025)",
-      "Empowering Women’s Award – Nehru Gram Bharati (2025)",
-      "Creative Women’s Award – Khanam Art Gallery (2024)",
-      "National Women’s Achievement Award – Social Work (2023)",
-      "IPERA – Rashtrapati Awardee Mr. P. C. Dubey Memorial Award (2014)"
+      {
+        title: "Founder: Astitva Sansthan"
+      },
+      {
+        year: "2014",
+        title: "IPERA – Rashtrapati Awardee Mr. P. C. Dubey Memorial Award",
+        desc: "Awarded by Indian Psychometric and Educational Research Association (IPERA), Patna, for remarkable professional achievements."
+      },
+      {
+        year: "2022",
+        title: "Guest of Honour – Kala Shreshth Award",
+        desc: "Honoured at Kala Shreshth Award 2022 – Two Men Show, organized by Khanam Art Gallery."
+      },
+      {
+        year: "2023",
+        title: "Kala Shreshth Guest of Honour Award",
+        desc: "Received from Khanam Art Gallery for contribution to fine arts and psychology."
+      },
+      {
+        year: "2023",
+        title: "National Women’s Achievement Award",
+        desc: "Awarded by Poonam Sant Mahila Evam Vikas Samiti for outstanding contribution to social work."
+      },
+      {
+        year: "2024",
+        title: "Creative Women’s Award",
+        desc: "Conferred by Khanam Art Gallery."
+      },
+      {
+        year: "2025",
+        title: "Empowering Women’s Award",
+        desc: "Awarded by Nehru Gram Bharati (Deemed to be University), Prayagraj."
+      },
+      {
+        year: "2025",
+        title: "Living Legend – C.M.P. Degree College",
+        desc: "Recognized during Diamond Jubilee Year Celebration, Prayagraj."
+      },
+      {
+        year: "2025",
+        title: "International Women’s Day Honour",
+        desc: "Awarded for professional excellence and social impact."
+      }
+    ],
+    workshops: [
+      {
+        title: "Training Workshop on The Art of Enneagram",
+        desc: "Allahabad University Psychology Alumni Association, December 2024"
+      },
+      {
+        title: "World Suicide Prevention Day",
+        desc: "10th September 2019, Allahabad University Psychology Alumni Association"
+      },
+      {
+        title: "National Conference on Human Rights and Intervention Strategies",
+        desc: "Organized by IPERA at Harprasad Institute of Behavioural Studies, Agra (2014)"
+      },
+      {
+        title: "Drug Abuse Awareness & Mental Health Seminars",
+        desc: "Conducted with professional bodies and women’s organizations including All India Women’s Conference, Allahabad"
+      }
     ]
   };
 
@@ -135,6 +228,10 @@ const MalveekaRaoProfile = () => {
                 <p className="text-xl text-blue-600 font-bold uppercase tracking-widest">
                   {member.role}
                 </p>
+
+                <p className="text-sm text-slate-500 font-semibold tracking-wide mt-1">
+                  {member.roleSecondary}
+                </p>
               </header>
 
               <div className="space-y-12">
@@ -162,58 +259,24 @@ const MalveekaRaoProfile = () => {
                   </div>
                 </section> */}
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="space-y-4">
-                    <h3 className="flex items-center gap-2 text-xs font-black text-slate-400 uppercase tracking-[0.2em]">
-                      <GraduationCap size={16} /> Education
-                    </h3>
-                    <ul className="space-y-3">
-                      {member.education.map((edu, i) => (
-                        <li key={i} className="text-xs font-bold text-slate-600 leading-tight flex gap-2">
-                          <CheckCircle2 size={14} className="text-blue-500 shrink-0" /> {edu}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                <div className="space-y-12">
 
-                  <div className="space-y-4">
-                    <h3 className="flex items-center gap-2 text-xs font-black text-slate-400 uppercase tracking-[0.2em]">
-                      <Calendar size={16} /> Experience Timeline
-                    </h3>
-                    <div className="space-y-4">
-                      {member.timeline.map((item, i) => (
-                        <motion.div 
-                          key={i} 
-                          whileHover={{ x: 5 }}
-                          className="border-l-2 border-slate-100 pl-4 relative"
-                        >
-                          <div className="absolute w-2 h-2 bg-blue-600 rounded-full -left-[5px] top-1" />
-                          <p className="text-[10px] font-black text-blue-600 uppercase mb-0.5">{item.year}</p>
-                          <p className="text-xs font-bold text-slate-800 leading-none">{item.role}</p>
-                          <p className="text-[10px] text-slate-400 uppercase">{item.place}</p>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </div>
+                {/* EDUCATION */}
+                <div>
+                  <h3 className="flex items-center gap-2 text-xs font-black text-slate-400 uppercase tracking-[0.2em] mb-4">
+                    <GraduationCap size={16} /> Education
+                  </h3>
+                  <ul className="space-y-3">
+                    {member.education.map((edu, i) => (
+                      <li key={i} className="text-sm font-semibold text-slate-600 leading-relaxed flex gap-2">
+                        <CheckCircle2 size={14} className="text-blue-500 shrink-0 mt-1" /> 
+                        {edu}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
-                <section className="pt-8 border-t border-slate-100">
-                  <h3 className="flex items-center gap-2 text-xs font-black text-slate-400 mb-6 uppercase tracking-[0.2em]">
-                    <Star size={16} className="text-yellow-500" /> Honors & Awards
-                  </h3>
-                  <div className="grid grid-cols-1 gap-3">
-                    {member.awards.map((award, i) => (
-                      <motion.div 
-                        key={i} 
-                        whileHover={{ scale: 1.01, x: 5 }}
-                        className="flex items-center gap-4 p-4 bg-slate-50 rounded-xl border border-transparent hover:border-blue-100 hover:bg-white hover:shadow-md transition-all"
-                      >
-                        <Award className="text-blue-600 shrink-0" size={20} />
-                        <p className="text-sm font-bold text-slate-700">{award}</p>
-                      </motion.div>
-                    ))}
-                  </div>
-                </section>
+              </div>
 
                 {/* <div className="pt-6">
                   <motion.button 
@@ -237,6 +300,102 @@ const MalveekaRaoProfile = () => {
               </div>
             </div>
           </div>
+
+          <div className="max-w-5xl mx-auto">
+            
+            <section className="pt-12 mt-12 border-t border-slate-100">
+              <div className="max-w-5xl mx-auto px-4 md:px-0">
+
+                <h3 className="flex items-center gap-2 text-xs font-black text-slate-400 uppercase tracking-[0.2em] mb-8">
+                  <Calendar size={16} /> Experience Timeline
+                </h3>
+
+                <div className="space-y-6">
+                  {member.timeline.map((item, i) => (
+                    <motion.div 
+                      key={i} 
+                      whileHover={{ x: 5 }}
+                      className="border-l-2 border-slate-100 pl-5 relative"
+                    >
+                      <div className="absolute w-2 h-2 bg-blue-600 rounded-full -left-[5px] top-2" />
+                      
+                      <p className="text-xs font-black text-blue-600 uppercase mb-1">
+                        {item.year}
+                      </p>
+
+                      <p className="text-sm md:text-base font-bold text-slate-800">
+                        {item.role}
+                      </p>
+
+                      <p className="text-sm text-slate-500 leading-relaxed">
+                        {item.place}
+                      </p>
+                    </motion.div>
+                  ))}
+                </div>
+
+              </div>
+            </section>
+            <section className="pt-12 mt-12 border-t border-slate-100">
+              <h3 className="flex items-center gap-2 text-xs font-black text-slate-400 mb-6 uppercase tracking-[0.2em]">
+                <Star size={16} className="text-yellow-500" /> Honors & Awards
+              </h3>
+              <div className="grid grid-cols-1 gap-3">
+                {member.awards.map((award, i) => (
+                  <motion.div 
+                    key={i} 
+                    whileHover={{ scale: 1.01, x: 5 }}
+                    className="flex items-center gap-4 p-4 bg-slate-50 rounded-xl border border-transparent hover:border-blue-100 hover:bg-white hover:shadow-md transition-all"
+                  >
+                    <Award className="text-blue-600 shrink-0" size={20} />
+                    <div>
+                      {award.year && (
+                        <p className="text-[10px] font-black text-blue-600 uppercase mb-1">
+                          {award.year}
+                        </p>
+                      )}
+                      <p className="text-sm font-bold text-slate-800">{award.title}</p>
+                      {award.desc && (
+                        <p className="text-xs text-slate-500 leading-relaxed mt-1">
+                          {award.desc}
+                        </p>
+                      )}
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </section>
+
+            {/* ================= WORKSHOPS & CONFERENCES ================= */}
+            <section className="pt-12 mt-12 border-t border-slate-100">
+              <div className="max-w-5xl mx-auto px-4 md:px-0">
+
+                <h3 className="flex items-center gap-2 text-xs font-black text-slate-400 mb-8 uppercase tracking-[0.2em]">
+                  <BookOpen size={16} /> Workshops & Conferences
+                </h3>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {member.workshops.map((item, i) => (
+                    <motion.div 
+                      key={i} 
+                      whileHover={{ scale: 1.02 }}
+                      className="p-5 bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-all"
+                    >
+                      <p className="text-sm font-bold text-slate-800">
+                        {item.title}
+                      </p>
+
+                      <p className="text-xs text-slate-500 leading-relaxed mt-2">
+                        {item.desc}
+                      </p>
+                    </motion.div>
+                  ))}
+                </div>
+
+              </div>
+            </section>
+          </div>
+
         </motion.div>
       </div>
     </div>
