@@ -152,7 +152,7 @@ const HomePage: React.FC = () => {
       <section className="relative z-20 -mt-12 container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { icon: <Users size={24} />, label: "Clients Supported", val: "5000+" },
+            { icon: <Users size={24} />, label: "Clients Supported. International and National", val: "5,00,000+" },
             { icon: <Award size={24} />, label: "Years Experience", val: "25+ Years" },
             // { icon: <Brain size={24} />, label: "Expert Psychologists", val: "12+ Staff" }
           ].map((stat, i) => (
@@ -188,7 +188,7 @@ const HomePage: React.FC = () => {
               <ClipboardList className="text-emerald-500 mb-4" />
               <h3 className="text-xl font-bold mb-2">Special Offer for Students</h3>
               <p className="text-slate-500 mb-6 text-sm">New discount available for students seeking mental health services.</p>
-              <Link href="/services/community-outreach" className="text-blue-600 font-bold flex items-center gap-2">Take Survey <ArrowRight size={16}/></Link>
+              <Link href="/student-offer" className="text-blue-600 font-bold flex items-center gap-2">Read More <ArrowRight size={16}/></Link>
             </div>
           </div>
         </div>
