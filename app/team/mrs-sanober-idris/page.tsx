@@ -12,7 +12,7 @@ const SanoberIdrisProfile = () => {
   const router = useRouter();
 
   const member = {
-    name: "Mrs. Sanober Idris",
+    name: "Mrs. Sanuber Idris",
     role: "Administrator & Clinical Psychologist",
     roleSecondary: "Senior Test Administrator",
     experience: "Extensive International & Clinical Experience",
