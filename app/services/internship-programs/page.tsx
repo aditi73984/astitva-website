@@ -191,7 +191,7 @@ const AstitvaInternship = () => {
               <span className="text-blue-100 font-bold text-xs uppercase tracking-widest">Intermediate</span>
               <h3 className="text-2xl font-black mt-2 mb-4">Lite Internship</h3>
               <div className="text-4xl font-black mb-2">₹6,500</div>
-              <div className="flex items-center gap-2 text-blue-100 mb-8 font-bold"><Calendar size={18}/> 45 Days</div>
+              <div className="flex items-center gap-2 text-blue-100 mb-8 font-bold"><Calendar size={18}/> 1 Month</div>
               <p className="text-blue-50 text-sm mb-10 opacity-80 flex-grow">Balanced combination of theory and introductory practical exposure.</p>
               <a href="/contact" className="w-full py-4 rounded-2xl bg-white text-blue-600 font-black hover:shadow-lg transition-all text-center text-glow">Enroll Now</a>
             </motion.div>
@@ -200,11 +200,11 @@ const AstitvaInternship = () => {
             <motion.div whileHover={{ scale: 1.02 }} className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl flex flex-col">
               <span className="text-green-600 font-bold text-xs uppercase tracking-widest">Advanced</span>
               <h3 className="text-2xl font-black mt-2 mb-4">Pro Internship</h3>
-              <div className="text-4xl font-black mb-2 text-slate-900">₹7,999</div>
+              <div className="text-4xl font-black mb-2 text-slate-900">₹9,500</div>
               <div className="flex items-center gap-2 text-slate-400 mb-4 font-bold"><Calendar size={18}/> 3 Months</div>
-              <div className="bg-green-50 text-green-700 p-3 rounded-xl text-xs font-bold mb-6">
+              {/* <div className="bg-green-50 text-green-700 p-3 rounded-xl text-xs font-bold mb-6">
                 ✨ Performance-Based Stipend: ₹1,500 – ₹2,000
-              </div>
+              </div> */}
               <p className="text-slate-500 text-sm mb-10 flex-grow">Advanced, practice-oriented for professional clinical exposure.</p>
               <a href="/contact" className="w-full py-4 rounded-2xl bg-slate-900 text-white font-bold hover:bg-green-600 transition-all text-center">Go Professional</a>
             </motion.div>

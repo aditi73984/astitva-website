@@ -19,7 +19,7 @@ const TeamSection: React.FC = () => {
       tagline: "Visionary Leader" 
     },
     { 
-      name: "Mrs. Sanober Idris", 
+      name: "Mrs. Sanuber Idris", 
       role: "Administrator", 
       img: "/images/team2.png", 
       tagline: "Operations Expert" 
@@ -32,7 +32,7 @@ const TeamSection: React.FC = () => {
      }, 
      { 
       name: "Mr. Rajeev Jaiswal", 
-      role: "Student Mentor", // Fixed missing role
+      role: "Senior Co-ordinator", 
       img: "/images/team5.jpeg", 
       tagline: "Mentorship" 
     },
@@ -60,13 +60,13 @@ const TeamSection: React.FC = () => {
     // },
     { 
       name: "Ms. Archita Navin", 
-      role: "SEO Expert", 
+      role: "Executive Member", 
       img: "/images/team7.png", 
       tagline: "Digital Presence" 
     },
     { 
       name: "Ms. Arshita Navin", 
-      role: "Tech Expert", 
+      role: "Executive Member", 
       img: "/images/team8.png", 
       tagline: "System Architect" 
     },
@@ -96,7 +96,7 @@ const TeamSection: React.FC = () => {
               viewport={{ once: true }}
               className="text-4xl md:text-5xl font-semibold text-slate-800 tracking-tight"
             >
-              Meet our <span className="text-blue-600 font-medium">Counselors</span>
+              Meet our <span className="text-blue-600 font-medium">Astitva Team</span>
             </motion.h2>
             
             <motion.p 

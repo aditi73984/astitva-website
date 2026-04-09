@@ -176,7 +176,9 @@ const HomePage: React.FC = () => {
               <HeartPulse className="text-rose-500 mb-4" />
               <h3 className="text-xl font-bold mb-2">Pre-Wedding Grooming</h3>
               <p className="text-slate-500 mb-6 text-sm">Empowering couples to start their journey with mental clarity and emotional strength.</p>
-              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeKzg5H86krccR4hYhrYuaruUatUr8z5Lcs73NVFHtJNeELAw/viewform" className="text-blue-600 font-bold flex items-center gap-2">Read More <ArrowRight size={16}/></Link>
+              <Link href="/services/counseling-therapies/pre-wedding" className="text-blue-600 font-bold flex items-center gap-2">
+                Read More <ArrowRight size={16}/>
+              </Link>            
             </div>
             <div className="bg-[#1747A3] text-white p-8 rounded-3xl shadow-lg">
               <GraduationCap className="text-cyan-300 mb-4" />

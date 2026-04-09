@@ -28,9 +28,9 @@ const ContactSection = () => {
 };
 
   const infoDetails = [
-    { icon: <Clock />, title: "Session Duration", desc: "1 Hour Professional Session", color: "blue" },
+    { icon: <Clock />, title: "Session Duration", desc: "2 Hour Professional Session", color: "blue" },
     { icon: <CreditCard />, title: "Fees", desc: "₹ 3500/- per session", sub: "Tests vary by type", color: "emerald" },
-    { icon: <Video />, title: "Mode", desc: "Online & In-Clinic", color: "purple" },
+    { icon: <Video />, title: "Mode", desc: "Online, In-Clinic and Home Visit", color: "purple" },
     { icon: <Calendar />, title: "Timing", desc: "Mon – Sat", sub: "11:00 AM – 06:00 PM", color: "orange" },
   ];
 
