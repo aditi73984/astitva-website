@@ -14,7 +14,7 @@ const Footer = () => {
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
     { name: 'Team', href: '/team' },
-    // { name: 'Blog', href: '/blog' },
+    { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -39,7 +39,8 @@ const Footer = () => {
                   ASTITVA
                 </span>
                 <span className="text-[10px] font-bold text-[#1747A3] uppercase tracking-[0.2em]">
-Psychological Counselling Centre                </span>
+                  Psychological Counselling Centre                
+                </span>
               </div>
             </Link>
             <p className="text-sm leading-relaxed text-slate-500 max-w-xs font-medium text-justify">

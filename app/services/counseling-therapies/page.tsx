@@ -57,44 +57,51 @@ const CounselingServices = () => {
             {[
               {
                 title: "Psychological Disorders",
+                slug: "psychological-disorders",
                 icon: <BrainCircuit className="text-purple-600" />,
                 desc: "Support for depression, phobia, addiction, OCD, suicidal tendencies, and emotional problems.",
                 color: "border-purple-100 bg-purple-50/30"
               },
               {
                 title: "Pre-Wedding Counseling",
+                slug: "pre-wedding",
                 icon: <HeartHandshake className="text-pink-600" />,
                 desc: "Helping couples recognize marital issues, resolve conflicts, and improve communication before marriage.",
                 color: "border-pink-100 bg-pink-50/30"
               },
               {
                 title: "Marriage Counseling",
+                slug: "marriage",
                 icon: <Users className="text-blue-600" />,
-                desc: "Resolving relationship conflicts, improving communication, and reconciling marital bonds effectively.",
+                desc: "Resolving relationship conflicts and improving communication.",
                 color: "border-blue-100 bg-blue-50/30"
               },
               {
                 title: "Family Counseling",
+                slug: "family",
                 icon: <User className="text-emerald-600" />,
-                desc: "Healthier relationships during divorce, loss, addiction, or illness affecting family members.",
+                desc: "Healthier relationships during difficult family situations.",
                 color: "border-emerald-100 bg-emerald-50/30"
               },
               {
                 title: "Child Counseling",
+                slug: "child",
                 icon: <Baby className="text-orange-600" />,
-                desc: "Helping children cope with emotions while guiding parents to foster expression and independence.",
+                desc: "Helping children cope with emotions and development.",
                 color: "border-orange-100 bg-orange-50/30"
               },
               {
                 title: "Personal Counseling",
+                slug: "personal",
                 icon: <Sparkles className="text-indigo-600" />,
-                desc: "Handling relationships, career stress, family issues, and identity challenges effectively.",
+                desc: "Handling relationships, career stress, and identity challenges.",
                 color: "border-indigo-100 bg-indigo-50/30"
               },
               {
                 title: "Disabled Rehabilitation",
+                slug: "rehabilitation",
                 icon: <HandHelping className="text-cyan-600" />,
-                desc: "Supportive space for individuals with disabilities to adapt to lifestyle changes with resilience.",
+                desc: "Support for individuals adapting to life challenges.",
                 color: "border-cyan-100 bg-cyan-50/30"
               }
             ].map((item, i) => (
@@ -109,8 +116,11 @@ const CounselingServices = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-slate-800">{item.title}</h3>
                 <p className="text-slate-600 text-sm leading-relaxed flex-grow">{item.desc}</p>
-                <a href="/contact" className="mt-8 flex items-center gap-2 text-slate-900 font-bold text-xs uppercase tracking-widest hover:text-blue-600 transition-colors group">
-                  Book Session <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                <a 
+                  href={`/services/counseling-therapies/${item.slug}`}
+                  className="mt-8 flex items-center gap-2 text-blue-600 font-bold text-xs uppercase tracking-widest hover:text-blue-800 transition-colors group"
+                >
+                  Read More <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                 </a>
               </motion.div>
             ))}
