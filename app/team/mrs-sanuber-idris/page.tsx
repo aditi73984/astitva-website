@@ -21,7 +21,7 @@ const SanoberIdrisProfile = () => {
     license: "PGDRP Certified Professional",
     affiliation: "Astitva Sansthan / Former Principal (Baha Int. School)",
     
-    bio: "Mrs. Sanober Idris is a dedicated psychologist and educator with extensive experience in psychological counseling, assessment, and child and adolescent development. Having served as Principal at Baha International School, Saudi Arabia, she brings a unique blend of international leadership and clinical expertise. Her commitment to holistic well-being is reflected in her work across mental health awareness, educational counseling, and motivational speaking.",
+    bio: "Mrs. Sanuber Idris is a dedicated psychologist and educator with extensive experience in psychological counseling, assessment, and child and adolescent development. Having served as Principal at Baha International School, Saudi Arabia, she brings a unique blend of international leadership and clinical expertise. Her commitment to holistic well-being is reflected in her work across mental health awareness, educational counseling, and motivational speaking.",
     
     specialization: [
       "Clinical Psychological Counseling",
