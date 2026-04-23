@@ -200,7 +200,7 @@ const AstitvaInternship = () => {
             <motion.div whileHover={{ scale: 1.02 }} className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl flex flex-col">
               <span className="text-green-600 font-bold text-xs uppercase tracking-widest">Advanced</span>
               <h3 className="text-2xl font-black mt-2 mb-4">Pro Internship</h3>
-              <div className="text-4xl font-black mb-2 text-slate-900">₹9,500</div>
+              <div className="text-4xl font-black mb-2 text-slate-900">₹12,500</div>
               <div className="flex items-center gap-2 text-slate-400 mb-4 font-bold"><Calendar size={18}/> 3 Months</div>
               {/* <div className="bg-green-50 text-green-700 p-3 rounded-xl text-xs font-bold mb-6">
                 ✨ Performance-Based Stipend: ₹1,500 – ₹2,000
