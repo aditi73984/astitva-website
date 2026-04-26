@@ -36,12 +36,13 @@ const TeamSection: React.FC = () => {
       img: "/images/team5.jpeg", 
       tagline: "Mentorship" 
     },
-    { 
-      name: "Ms. Abha Yadav", 
-      role: "Office Co-ordinator", 
-      img: "/images/team6.png", 
-      tagline: "Clinical Support" 
-    },
+    // { 
+    //   name: "Ms. Abha Yadav", 
+    //   role: "Office Co-ordinator", 
+    //   img: "/images/team6.png", 
+    //   tagline: "Clinical Support" 
+    // },
+    
   ];
 
   const hiddenMembers = [
