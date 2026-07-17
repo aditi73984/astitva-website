@@ -143,57 +143,39 @@ const BlogDetailPage = () => {
 
             <div className="p-10 bg-slate-900 border-r-8 border-blue-500 rounded-l-3xl shadow-2xl">
               <p className="italic font-medium text-2xl text-blue-50 leading-relaxed font-serif">
-                "Healing is not a linear journey. It is a series of small,
-                intentional decisions to prioritize your inner peace over
-                external chaos."
+                "{blog.quote.text}"
               </p>
 
               <p className="mt-4 text-blue-400 font-bold font-sans uppercase tracking-widest text-sm">
-                — Astitva Psychological Counselling Centre
+                — {blog.quote.author}
               </p>
             </div>
           </div>
 
           {/* Helpful Practices */}
           <h3 className="text-2xl font-black text-slate-900 mt-12 mb-4 font-sans">
-            Practical Steps Towards Better Mental Well-being
+            {blog.practicesTitle}
           </h3>
 
           <ul className="space-y-4 mb-10 list-none pl-0 font-sans">
-            {[
-              {
-                title: "Practice Mindfulness",
-                desc: "Spend a few minutes every day observing your thoughts without judgment."
-              },
-              {
-                title: "Maintain Healthy Boundaries",
-                desc: "Balance work, personal life and digital consumption to reduce stress."
-              },
-              {
-                title: "Seek Professional Support",
-                desc: "Consult a qualified mental health professional whenever emotional challenges become overwhelming."
-              }
-            ].map((item, index) => (
+            {blog.practices.map((practice, index) => (
               <li
                 key={index}
                 className="bg-slate-50 p-6 rounded-2xl border border-slate-100"
               >
                 <span className="block text-blue-600 font-black text-lg mb-1">
-                  {item.title}
+                  {practice.title}
                 </span>
 
                 <span className="text-slate-600">
-                  {item.desc}
+                  {practice.desc}
                 </span>
               </li>
             ))}
           </ul>
 
           <p className="mb-8 italic text-slate-500 border-t border-slate-100 pt-8 font-sans text-sm">
-            Note: Every individual's mental health journey is unique. The
-            information shared in this article is educational in nature and
-            should not replace professional psychological consultation or
-            medical advice.
+            {blog.disclaimer}
           </p>
 
           {/* CTA Section */}
