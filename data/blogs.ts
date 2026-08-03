@@ -177,6 +177,89 @@ export const blogs: Blog[] = [
             "This article is intended for educational and awareness purposes only. Social media trends should never define your self-worth or identity. If comparison, self-doubt, or emotional distress begin affecting your daily life, consider seeking guidance from a qualified mental health professional."
     },
 
+    {
+        slug: "choosing-a-life-partner-not-a-controller",
+
+        title:
+            "शादी का सही चुनाव: क्या आप एक पार्टनर चुन रहे हैं या एक 'कंट्रोलर'?",
+
+        category: "NGO News",
+
+        author: "Dr. Malveeka Rao",
+
+        publishedAt: "2026-08-03",
+
+        readTime: "8 min read",
+
+        excerpt:
+            "शादी केवल एक रिश्ता नहीं, बल्कि जीवन की सबसे महत्वपूर्ण साझेदारी है। जानिए किन 'Red Flags' को पहचानना जरूरी है ताकि आपका रिश्ता सम्मान, विश्वास और मानसिक सुरक्षा पर आधारित हो।",
+
+        image: "/images/blogs/prewed.jpeg",
+
+        featured: false,
+
+        content: [
+            "विवाह जीवन के सबसे महत्वपूर्ण निर्णयों में से एक है। एक Clinical Psychotherapist और Life Coach के रूप में पिछले 25 वर्षों में मैंने अनगिनत रिश्तों को करीब से समझा है। अपने Pre-wed Grooming Sessions के दौरान मैं देखती हूँ कि अधिकांश जोड़े एक सुंदर भविष्य का सपना लेकर आते हैं। इन सत्रों का उद्देश्य केवल शादी की तैयारी नहीं, बल्कि Responsibility Sharing, Mutual Understanding और Healthy Adjustment की मजबूत नींव तैयार करना होता है।",
+
+            "लेकिन इसी प्रक्रिया के दौरान कई ऐसे Red Flags सामने आते हैं जिन्हें यदि समय रहते नहीं पहचाना गया, तो वही रिश्ता आगे चलकर Toxic Relationship का रूप ले सकता है। इसलिए शादी से पहले केवल प्यार ही नहीं, बल्कि व्यक्ति के व्यवहार, सोच और मूल्यों को समझना भी उतना ही आवश्यक है।",
+
+            "बहुत से लोग Pre-wedding Counselling को केवल एक औपचारिक प्रक्रिया समझते हैं, जबकि वास्तव में यह आपके Compatibility, Communication और Mindset को समझने का सबसे अच्छा अवसर होता है। कई बार व्यक्ति भावनात्मक निकटता का फायदा उठाकर आपके अतीत, असुरक्षाओं या निजी अनुभवों को जानने की कोशिश करता है। सबसे महत्वपूर्ण बात यह है कि क्या वह भविष्य में उन्हीं बातों का इस्तेमाल Gaslighting, शक या Control करने के लिए करेगा।",
+
+            "शादी से पहले का समय एक-दूसरे को जज करने का नहीं, बल्कि समझने और Observe करने का समय है। इस दौरान ध्यान दें कि असहमति होने पर आपका पार्टनर कैसे प्रतिक्रिया देता है। क्या वह आपकी राय का सम्मान करता है, या हर स्थिति में अपनी बात मनवाने की कोशिश करता है? यही छोटी-छोटी बातें भविष्य के रिश्ते की दिशा तय करती हैं।",
+
+            "एक स्वस्थ रिश्ते की पहचान Healthy Boundaries और Mutual Respect से होती है। यदि कोई व्यक्ति आज ही आपके दोस्तों, पहनावे, करियर, परिवार या व्यक्तिगत निर्णयों पर अनावश्यक नियंत्रण स्थापित करने की कोशिश कर रहा है, तो यह केवल Care नहीं बल्कि भविष्य के Domination का संकेत हो सकता है।",
+
+            "Emotional Maturity किसी भी सफल विवाह की सबसे मजबूत नींव है। यदि आपका साथी आपकी भावनाओं को समझने के बजाय आपकी कमजोरियों को हथियार बनाकर Emotional Manipulation या Emotional Torture करता है, तो यह प्रेम नहीं बल्कि एक Emotional Trap है। रिश्ते में सुरक्षा का अनुभव होना चाहिए, डर का नहीं।",
+
+            "विवाह केवल दो व्यक्तियों का मिलन नहीं बल्कि दो परिवारों, दो संस्कृतियों और दो जीवन शैलियों का समन्वय है। इसलिए Responsibility Sharing और Adjustment की क्षमता अत्यंत आवश्यक है। यदि दोनों साथी जिम्मेदारियों को साझा करने और एक-दूसरे के विकास में सहयोग देने के लिए तैयार हैं, तभी रिश्ता लंबे समय तक स्वस्थ बना रह सकता है।",
+
+            "अक्सर कई लोग समाज, परिवार या बदनामी के डर से Toxic Patterns को स्वीकार करते रहते हैं। लेकिन मेरा स्पष्ट संदेश है कि केवल सामाजिक दबाव के कारण ऐसे रिश्ते में बने रहना उचित नहीं है। यदि Counselling के दौरान यह स्पष्ट हो जाए कि सामने वाला व्यक्ति अपने व्यवहार में बदलाव लाने के लिए तैयार नहीं है, तो उस रिश्ते पर पुनर्विचार करना अपने आत्मसम्मान और मानसिक स्वास्थ्य के लिए आवश्यक हो सकता है।",
+
+            "मेरे Pre-wed Grooming Program का उद्देश्य केवल शादी करवाना नहीं बल्कि जीवनभर के स्वस्थ रिश्तों की नींव रखना है। हम जोड़ों को सिखाते हैं कि पहले Formal Bonding बनाए रखें, व्यक्ति के Thought Process को समझें, और तभी Emotional Investment करें जब आपको विश्वास हो जाए कि सामने वाला आपकी Dignity, Values और Individuality का सम्मान करता है।",
+
+            "अंततः शादी कोई समझौता नहीं बल्कि एक साझेदारी है। इसमें नियंत्रण की नहीं, सहयोग और सम्मान की आवश्यकता होती है। अपने रिश्ते को परफेक्ट बनाने की कोशिश में अपनी पहचान, आत्मसम्मान और मानसिक शांति को कभी न खोएँ। सही जीवनसाथी वही है जो आपको बदलने की कोशिश नहीं करता, बल्कि आपके साथ मिलकर बेहतर जीवन बनाने का प्रयास करता है।"
+        ],
+
+        quote: {
+            text:
+            "Marriage is not about finding someone who controls your life. It is about choosing someone who respects your individuality, shares responsibilities, and grows with you.",
+            author: "Dr. Malveeka Rao"
+        },
+
+        practicesTitle: "Healthy Foundations Before Marriage",
+
+        practices: [
+            {
+            title: "Observe, Don't Rush",
+            desc:
+                "Use the engagement period to understand your partner's values, behavior, and emotional maturity instead of making quick assumptions."
+            },
+            {
+            title: "Respect Healthy Boundaries",
+            desc:
+                "A caring partner respects your personal space, friendships, career choices, and individuality without trying to control them."
+            },
+            {
+            title: "Identify Emotional Manipulation",
+            desc:
+                "Never ignore signs of gaslighting, excessive jealousy, emotional blackmail, or controlling behavior before marriage."
+            },
+            {
+            title: "Share Responsibilities",
+            desc:
+                "Successful marriages are built on teamwork, mutual respect, accountability, and willingness to adjust together."
+            },
+            {
+            title: "Choose Self-Respect First",
+            desc:
+                "Never stay in an unhealthy relationship because of social pressure or fear of judgment. Your emotional well-being always comes first."
+            }
+        ],
+
+        disclaimer:
+            "This article is intended for educational and awareness purposes only. Every relationship is unique, and decisions regarding marriage should be made after thoughtful consideration. If you experience emotional manipulation, controlling behavior, or relationship distress, seek guidance from a qualified mental health professional."
+    },
+
 
 ];
 
