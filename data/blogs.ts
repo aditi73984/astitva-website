@@ -340,7 +340,7 @@ export const blogs: Blog[] = [
 
         category: "NGO News",
 
-        author: "Dr. Malveeka Rao",
+        author: "Arshita Navin",
 
         publishedAt: "2026-08-12",
 
