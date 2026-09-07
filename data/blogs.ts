@@ -332,6 +332,74 @@ export const blogs: Blog[] = [
             "यह लेख साहित्य, प्रेम और स्त्री के चित्रण पर एक मनोवैज्ञानिक और सामाजिक दृष्टिकोण प्रस्तुत करता है। इसका उद्देश्य किसी व्यक्ति या रचना के संबंध में अंतिम निर्णय देना नहीं, बल्कि प्रेम, सम्मान, संवेदनशीलता और मानवीय गरिमा पर विचार करने के लिए प्रेरित करना है।"
     },
 
+    {
+        slug: "youth-awareness-alcohol-harmful-effects",
+
+        title:
+            "Protecting Our Youth: Awareness Workshop on the Harmful Effects of Alcohol",
+
+        category: "NGO News",
+
+        author: "Dr. Malveeka Rao",
+
+        publishedAt: "2026-08-12",
+
+        readTime: "4 min read",
+
+        excerpt:
+            "Dr. Malveeka Rao recently participated as a speaker at an awareness workshop on the prevention and harmful effects of alcohol among youth at Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj.",
+
+        image: "/images/blogs/alcohol-awareness.png",
+
+        featured: false,
+
+        content: [
+            "Recently, I had the opportunity to participate in a highly important workshop on 'Prevention, Awareness and Protection from the Harmful Effects of Alcohol among Youth' at Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj.",
+
+            "I sincerely thank Mr. Om Prakash Mishra for inviting me as a speaker for this programme, which was organized on 7 August 2026 by Consumer Voice, Consumer Guild, and the Department of Social Work.",
+
+            "During the workshop, I interacted with young people and explained to them in detail the serious harmful effects of alcohol consumption. We discussed not only the reasons behind alcohol use, but also placed special emphasis on practical ways to lead life in a positive direction and stay away from such harmful habits.",
+
+            "Creating awareness among young people is an important step towards protecting their physical, emotional, and social well-being. Open conversations can help young people understand the consequences of harmful habits and make more informed choices about their lives.",
+
+            "The youth are the future of our nation, and keeping them aware, informed, and protected is a collective responsibility that belongs to all of us."
+        ],
+
+        quote: {
+            text:
+            "The youth are the future of our nation, and keeping them aware, informed, and protected is a collective responsibility that belongs to all of us.",
+            author: "Dr. Malveeka Rao"
+        },
+
+        practicesTitle: "Building Awareness Among Young People",
+
+        practices: [
+            {
+            title: "Create Awareness",
+            desc:
+                "Open and informed conversations can help young people understand the harmful effects associated with alcohol consumption."
+            },
+            {
+            title: "Understand the Reasons",
+            desc:
+                "Understanding why young people may be drawn towards harmful habits is an important part of prevention and awareness."
+            },
+            {
+            title: "Choose Positive Alternatives",
+            desc:
+                "Encouraging healthy activities and positive ways of spending time can help young people move towards healthier lifestyles."
+            },
+            {
+            title: "Stay Informed and Supported",
+            desc:
+                "Young people should have access to reliable information and supportive environments where they can openly discuss their concerns and choices."
+            }
+        ],
+
+        disclaimer:
+            "This article is intended for educational and awareness purposes. It highlights the importance of awareness and prevention among young people and should not be considered a substitute for professional medical or psychological advice."
+    },
+
 
 ];
 
