@@ -416,7 +416,7 @@ export const blogs: Blog[] = [
         excerpt:
             "Not every struggle is visible. On World Suicide Prevention Day, let’s remind ourselves that sometimes the most important thing we can do is simply start a conversation.",
 
-        image: "/images/blogs/suicide-prevention-day.png",
+        image: "/images/blogs/suidcide-day.png",
 
         featured: false,
 
