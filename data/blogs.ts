@@ -400,6 +400,89 @@ export const blogs: Blog[] = [
             "This article is intended for educational and awareness purposes. It highlights the importance of awareness and prevention among young people and should not be considered a substitute for professional medical or psychological advice."
     },
 
+    {
+        slug: "world-suicide-prevention-day-2026",
+
+        title: "Start the Conversation: Changing the Narrative on Suicide",
+
+        category: "Mental Health",
+
+        author: "Arshita Navin",
+
+        publishedAt: "2026-09-10",
+
+        readTime: "4 min read",
+
+        excerpt:
+            "Not every struggle is visible. On World Suicide Prevention Day, let’s remind ourselves that sometimes the most important thing we can do is simply start a conversation.",
+
+        image: "/images/blogs/suicide-prevention-day.png",
+
+        featured: false,
+
+        content: [
+            "Sometimes, the most important thing we can do is simply start a conversation.",
+
+            "On World Suicide Prevention Day, let’s remind ourselves that not every struggle is visible. A person may smile, show up, work, study, laugh with friends, and continue with everyday life—and still be going through something difficult.",
+
+            "We often assume that someone who appears fine must actually be fine. But emotional struggles are not always visible from the outside. People may carry pain, loneliness, fear, or overwhelming thoughts without knowing how to express what they are going through.",
+
+            "You don’t need perfect words. You don’t need to know exactly what to say or have all the answers. Sometimes, a simple question can create a space where someone feels seen and heard.",
+
+            "You can simply ask, “How are you, really?”",
+
+            "And sometimes, listening without judgement can mean more than we realise. Being present, allowing someone to speak, and taking their feelings seriously can help them feel less alone during a difficult moment.",
+
+            "Let’s change the narrative—from silence to conversation, from judgement to empathy, and from isolation to connection.",
+
+            "Starting a conversation does not mean that you have to solve everything. It simply means letting someone know that they matter, that their feelings are worth hearing, and that they do not have to carry every difficult moment alone.",
+
+            "Stay connected with the people around you. Check in, listen with patience, and encourage professional support when someone is struggling. Small conversations can sometimes become the first step towards seeking the help a person needs.",
+
+            "On this World Suicide Prevention Day, let’s choose awareness over assumptions, empathy over judgement, and connection over silence. Start the conversation. Stay connected. Let people know they don’t have to face difficult moments alone."
+        ],
+
+        quote: {
+            text:
+            "You don’t need perfect words. Sometimes, simply asking “How are you, really?” and listening without judgement can make a difference.",
+
+            author: "Astitva Psychological Counselling Centre"
+        },
+
+        practicesTitle: "How We Can Support Someone Who May Be Struggling",
+
+        practices: [
+            {
+            title: "Start the Conversation",
+            desc:
+                "Ask a simple and genuine question such as “How are you, really?” Give the person an opportunity to talk without pressure."
+            },
+            {
+            title: "Listen Without Judgement",
+            desc:
+                "You do not need to immediately solve the problem. Sometimes, being present and listening with patience is the most meaningful support you can offer."
+            },
+            {
+            title: "Stay Connected",
+            desc:
+                "Continue checking in rather than assuming that one conversation is enough. Consistent connection can help someone feel less isolated."
+            },
+            {
+            title: "Take Their Feelings Seriously",
+            desc:
+                "Do not dismiss someone's emotional struggles or assume that they are simply overreacting. Let them know that their experience matters."
+            },
+            {
+            title: "Encourage Professional Support",
+            desc:
+                "When someone is experiencing persistent or overwhelming emotional distress, encourage them to seek support from a qualified mental-health professional."
+            }
+        ],
+
+        disclaimer:
+            "If you or someone you know is in immediate danger, please seek urgent help from local emergency services or a qualified mental-health professional. This article is intended for awareness and educational purposes and is not a substitute for professional psychological assessment, diagnosis, or treatment."
+    },
+
 
 
 
