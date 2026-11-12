@@ -483,6 +483,93 @@ export const blogs: Blog[] = [
             "If you or someone you know is in immediate danger, please seek urgent help from local emergency services or a qualified mental-health professional. This article is intended for awareness and educational purposes and is not a substitute for professional psychological assessment, diagnosis, or treatment."
     },
 
+    {
+    slug: "psychological-assessment-security-guards",
+
+    title: "Astitva Conducts Psychological Assessment for 50 Security Guards",
+
+    category: "NGO News",
+
+    author: "Arshita Navin",
+
+    publishedAt: "2026-10-17",
+
+    readTime: "4 min read",
+
+    excerpt:
+        "Astitva Psychological Counselling Centre organised a two-day psychological assessment programme for 50 security guards on 15 and 16 October 2026, focusing on emotional well-being, personality, behavioural patterns, and stress management.",
+
+    image: "/images/blogs/security-guards-assessment.png",
+
+    featured: false,
+
+    content: [
+        "Astitva Psychological Counselling Centre organised a two-day psychological assessment programme for 50 security guards on 15 and 16 October 2026. The initiative focused on conducting structured psychological evaluations to gain insights into various aspects of their emotional well-being, personality, behavioural patterns, and stress management.",
+
+        "The assessment included a series of psychological screening tools and questionnaires, each designed to evaluate specific psychological and behavioural dimensions.",
+
+        "The Psychological Screening Inventory, consisting of 55 items, was used to screen areas such as emotional stability, impulse control, anger and aggression control, stress tolerance, attention and concentration, decision-making, responsibility, interpersonal behaviour, and reliability.",
+
+        "The Eysenck Personality Questionnaire – Revised (EPQ-R Short Scale) assessed four personality dimensions: Psychoticism, Extraversion, Neuroticism, and the Lie scale, which also helps interpret response tendencies.",
+
+        "The Buss–Perry Aggression Questionnaire focused on four dimensions of aggression-related tendencies: physical aggression, verbal aggression, anger, and hostility.",
+
+        "The Barratt Impulsiveness Scale (BIS-11) evaluated impulsivity across three dimensions: attentional impulsivity, motor impulsivity, and non-planning impulsivity.",
+
+        "The Perceived Stress Scale (PSS) was included to understand how frequently individuals experienced situations as stressful, unpredictable, or difficult to manage during the preceding month.",
+
+        "Additionally, the Drug Abuse Screening Test (DAST-10) was used as a screening instrument to identify potential concerns associated with drug use during the preceding 12 months.",
+
+        "Together, these assessment tools provided a structured approach to understanding different aspects of psychological functioning. The evaluations were intended to support professional understanding and help identify areas that may require further attention.",
+
+        "The Astitva team worked together to ensure that the entire assessment process was organised and carried out smoothly across both days. From coordinating participants to facilitating the evaluation process, the team made sure that the programme progressed efficiently.",
+
+        "At Astitva, we believe that psychological well-being deserves attention across every section of society. Initiatives like these reflect the importance of psychological awareness and professional assessment in different working environments.",
+
+        "Through such efforts, Astitva continues to work towards creating greater awareness, promoting understanding, and encouraging a more informed approach to psychological well-being."
+    ],
+
+    quote: {
+        text:
+            "Psychological well-being deserves attention, understanding, and care. Every step towards awareness is a step towards a healthier community.",
+
+        author: "Astitva Psychological Counselling Centre"
+    },
+
+    practicesTitle: "Psychological Dimensions Covered in the Assessment",
+
+    practices: [
+        {
+            title: "Emotional Stability and Stress Tolerance",
+            desc:
+                "The screening inventory and Perceived Stress Scale explored emotional stability and how individuals experience and manage stressful situations."
+        },
+        {
+            title: "Personality Assessment",
+            desc:
+                "The EPQ-R Short Scale assessed personality dimensions, including psychoticism, extraversion, neuroticism, and response tendencies."
+        },
+        {
+            title: "Aggression and Anger Management",
+            desc:
+                "The Buss–Perry Aggression Questionnaire examined physical aggression, verbal aggression, anger, and hostility."
+        },
+        {
+            title: "Impulse Control",
+            desc:
+                "The BIS-11 evaluated attentional, motor, and non-planning aspects of impulsivity."
+        },
+        {
+            title: "Substance Use Screening",
+            desc:
+                "The DAST-10 screened for potential concerns associated with drug use during the preceding 12 months."
+        }
+    ],
+
+    disclaimer:
+        "The psychological tools mentioned in this article are screening and assessment instruments. Their results should be interpreted by qualified professionals in the appropriate context and should not be considered standalone clinical diagnoses."
+    },
+
 
 
 
