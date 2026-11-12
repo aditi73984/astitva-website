@@ -570,6 +570,89 @@ export const blogs: Blog[] = [
         "The psychological tools mentioned in this article are screening and assessment instruments. Their results should be interpreted by qualified professionals in the appropriate context and should not be considered standalone clinical diagnoses."
     },
 
+    {
+    slug: "astitva-durga-puja-public-outreach-2026",
+
+    title: "Astitva Connects with the Community During Durga Puja",
+
+    category: "NGO News",
+
+    author: "Arshita Navin",
+
+    publishedAt: "2026-10-21",
+
+    readTime: "3 min read",
+
+    excerpt:
+        "From 17 to 20 October, Astitva Psychological Counselling Centre set up a canopy during Durga Puja to connect with the public, exchange perspectives, gather community feedback, and understand people's thoughts through surveys and conversations.",
+
+    image: "/images/blogs/astitva-durga-puja-2026.png",
+
+    featured: false,
+
+    content: [
+        "Festivals are more than celebrations. They are opportunities to bring people together, build connections, and create meaningful conversations within the community.",
+
+        "From 17 to 20 October 2026, Astitva Psychological Counselling Centre set up a canopy during the Durga Puja celebrations, creating an opportunity to interact with members of the public and introduce them to the centre's work.",
+
+        "The initiative aimed to connect with people from different walks of life, share information about psychological counselling, and encourage open conversations around mental health and well-being.",
+
+        "Throughout the four days, visitors had the opportunity to interact with the Astitva team, share their thoughts and perspectives, and participate in surveys designed to understand public opinions and awareness around relevant issues.",
+
+        "These conversations offered an opportunity to listen to the community, understand different viewpoints, and learn more about how people perceive mental health and psychological support.",
+
+        "The Astitva team actively engaged with visitors, answered their queries, shared information about the centre, and ensured that interactions at the canopy remained welcoming and meaningful.",
+
+        "By taking its work beyond the counselling room and into a public space, Astitva aimed to make psychological awareness more approachable and encourage people to engage with conversations that are often left unspoken.",
+
+        "The four-day initiative was a valuable experience in community outreach, public engagement, and understanding the perspectives of the people we serve.",
+
+        "At Astitva, we believe that meaningful change begins with listening, understanding, and creating spaces where people feel comfortable sharing their thoughts.",
+
+        "We are grateful to everyone who visited our canopy, participated in the surveys, and took the time to interact with our team. Every conversation and shared perspective helps us move towards a more aware, informed, and supportive community."
+    ],
+
+    quote: {
+        text:
+            "Meaningful community engagement begins when we take the time to listen, understand, and learn from one another.",
+
+        author: "Astitva Psychological Counselling Centre"
+    },
+
+    practicesTitle: "Highlights of the Community Outreach Initiative",
+
+    practices: [
+        {
+            title: "Public Interaction",
+            desc:
+                "Engaging with visitors and creating opportunities for open conversations about psychological counselling and mental well-being."
+        },
+        {
+            title: "Community Surveys",
+            desc:
+                "Inviting members of the public to participate in surveys and share their thoughts, opinions, and perspectives."
+        },
+        {
+            title: "Mental Health Awareness",
+            desc:
+                "Introducing visitors to Astitva's work and encouraging greater awareness and understanding of psychological support."
+        },
+        {
+            title: "Listening to the Community",
+            desc:
+                "Understanding different viewpoints and learning about public perceptions through direct interaction and conversations."
+        },
+        {
+            title: "Building Connections",
+            desc:
+                "Creating a welcoming space where people could connect with the Astitva team, ask questions, and learn more about the centre."
+        }
+    ],
+
+    disclaimer:
+        "This article is intended to document Astitva Psychological Counselling Centre's community outreach initiative during the Durga Puja celebrations."
+    },
+
 
 
 
