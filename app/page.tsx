@@ -212,20 +212,29 @@ const HomePage: React.FC = () => {
 
               <div className="flex flex-col gap-3">
                 <Link
-                  href="/documents/Astitva_Recruitment_Advertisement.pdf"
-                  target="_blank"
+                  href="/recruitment"
                   className="text-blue-600 font-bold flex items-center gap-2"
                 >
-                  View Advertisement <ArrowRight size={16} />
+                  Explore Opportunities <ArrowRight size={16} />
                 </Link>
 
-                <Link
+                <a
+                  href="/documents/Astitva_Online_Recruitment_Advertisement.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-600 font-semibold text-sm flex items-center gap-2 hover:text-blue-600"
+                >
+                  View Advertisement <ArrowRight size={15} />
+                </a>
+
+                <a
                   href="/documents/Astitva_Candidate_Guidelines.pdf"
                   target="_blank"
-                  className="text-blue-600 font-bold flex items-center gap-2"
+                  rel="noopener noreferrer"
+                  className="text-slate-600 font-semibold text-sm flex items-center gap-2 hover:text-blue-600"
                 >
-                  Candidate Guidelines <ArrowRight size={16} />
-                </Link>
+                  Candidate Guidelines <ArrowRight size={15} />
+                </a>
               </div>
             </div>
 
