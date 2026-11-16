@@ -2,25 +2,27 @@
 import React from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import Link from 'next/link'; 
-import { 
-  Brain, 
-  BarChart3, 
-  Handshake, 
-  Globe, 
-  GraduationCap, 
+import {
+  Brain,
+  BarChart3,
+  Handshake,
+  Globe,
+  GraduationCap,
+  ClipboardList,
   ArrowRight,
   CalendarCheck,
   Sparkles,
   LucideIcon
-} from 'lucide-react';
+} from 'lucide-react'; 
 
 // 1. Interface banayein taaki 'any' ka error na aaye
 interface Service {
   title: string;
   desc: string;
-  icon: LucideIcon; // Type-safe icon
+  icon: LucideIcon;
   gradient: string;
   slug: string;
+  href?: string;
 }
 
 // --- PREMIUM NEON TILT CARD ---
@@ -59,7 +61,7 @@ const ServiceCard = ({ service, index }: { service: Service, index: number }) =>
       <div className={`absolute -inset-2 opacity-0 group-hover:opacity-40 blur-[40px] transition-all duration-700 bg-gradient-to-br ${service.gradient} rounded-[2.5rem]`} />
 
       <Link 
-        href={`/services/${service.slug}`}
+        href={service.href ?? `/services/${service.slug}`}
         className="relative block h-full bg-white/90 backdrop-blur-md border border-slate-100 rounded-[2.5rem] p-8 shadow-[0_20px_50px_rgba(0,0,0,0.03)] hover:border-white transition-all duration-500 overflow-hidden no-underline"
       >
         <motion.div 
@@ -110,6 +112,7 @@ const ServicesSection: React.FC = () => {
       gradient: "from-blue-600 via-indigo-500 to-indigo-700",
       slug: "counseling-therapies" 
     },
+    
     { 
       title: "Psychological Assessments", 
       desc: "Scientific diagnostic testing for IQ, personality, and neuro-developmental profiles.", 
@@ -117,6 +120,7 @@ const ServicesSection: React.FC = () => {
       gradient: "from-purple-600 via-fuchsia-500 to-pink-600",
       slug: "psychological-assessments" 
     },
+
     { 
       title: "Rehabilitation Programs", 
       desc: "Holistic recovery frameworks for developmental disorders and life-skill development.", 
@@ -124,6 +128,7 @@ const ServicesSection: React.FC = () => {
       gradient: "from-emerald-500 via-teal-400 to-cyan-600",
       slug: "rehabilitation-programs" 
     },
+
     { 
       title: "Community Outreach", 
       desc: "Impactful mental health awareness programs and corporate workshops globally.", 
@@ -131,14 +136,24 @@ const ServicesSection: React.FC = () => {
       gradient: "from-orange-500 via-amber-400 to-red-500",
       slug: "community-outreach" 
     },
+
     { 
       title: "Internship Programs", 
       desc: "Premier clinical exposure and professional mentorship for aspiring psychologists.", 
       icon: GraduationCap, 
       gradient: "from-sky-500 via-blue-400 to-indigo-600",
       slug: "internship-programs" 
+    },
+
+    {
+      title: "Special Offer for Students",
+      desc: "Exclusive discounts for students seeking professional psychological counselling and mental health support.",
+      icon: ClipboardList,
+      gradient: "from-emerald-500 via-teal-400 to-cyan-600",
+      slug: "student-offer",
+      href: "/student-offer"
     }
-  ];
+      ];
 
   return (
     <section id="services" className="relative py-28 bg-white overflow-hidden">
