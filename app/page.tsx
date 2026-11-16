@@ -212,7 +212,7 @@ const HomePage: React.FC = () => {
 
               <div className="flex flex-col gap-3">
                 <Link
-                  href="/documents/Astitva_Online_Recruitment_Advertisement.pdf"
+                  href="/documents/Astitva_Recruitment_Advertisement.pdf"
                   target="_blank"
                   className="text-blue-600 font-bold flex items-center gap-2"
                 >
