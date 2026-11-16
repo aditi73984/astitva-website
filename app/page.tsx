@@ -167,11 +167,15 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-            {/* --- WHAT'S NEW SECTION --- */}
+      {/* --- WHAT'S NEW SECTION --- */}
       <section className="py-20 ">
+        
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-black text-center mb-16 uppercase tracking-widest text-slate-900">What's New at Astitva</h2>
+         
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          {/* Pre-Wedding Grooming */}
             <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
               <HeartPulse className="text-rose-500 mb-4" />
               <h3 className="text-xl font-bold mb-2">Pre-Wedding Grooming</h3>
@@ -180,20 +184,55 @@ const HomePage: React.FC = () => {
                 Read More <ArrowRight size={16}/>
               </Link>            
             </div>
+            
+          {/* Clinical Internship */}
             <div className="bg-[#1747A3] text-white p-8 rounded-3xl shadow-lg">
               <GraduationCap className="text-cyan-300 mb-4" />
               <h3 className="text-xl font-bold mb-2">Clinical Internship</h3>
               <p className="text-blue-100 mb-6 text-sm">Professional training programs for aspiring psychologists and clinical interns.</p>
               <Link href="/services/internship-programs" className="text-cyan-300 font-bold flex items-center gap-2">Apply Now <ArrowRight size={16}/></Link>
             </div>
+          
+          {/* Recruitment & Paid Internship */}
             <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
               <ClipboardList className="text-emerald-500 mb-4" />
-              <h3 className="text-xl font-bold mb-2">Special Offer for Students</h3>
-              <p className="text-slate-500 mb-6 text-sm">New discount available for students seeking mental health services.</p>
-              <Link href="/student-offer" className="text-blue-600 font-bold flex items-center gap-2">Read More <ArrowRight size={16}/></Link>
+
+              <h3 className="text-xl font-bold mb-2">
+                Recruitment & Paid Internship
+              </h3>
+
+              <p className="text-slate-500 mb-4 text-sm">
+                Applications are invited for clinical, psychometric, field marketing
+                and digital marketing positions at Astitva and Psychub.
+              </p>
+
+              <p className="text-blue-700 font-semibold text-sm mb-6">
+                Application Window: 17–30 November 2026
+              </p>
+
+              <div className="flex flex-col gap-3">
+                <Link
+                  href="/documents/Astitva_Online_Recruitment_Advertisement.pdf"
+                  target="_blank"
+                  className="text-blue-600 font-bold flex items-center gap-2"
+                >
+                  View Advertisement <ArrowRight size={16} />
+                </Link>
+
+                <Link
+                  href="/documents/Astitva_Candidate_Guidelines.pdf"
+                  target="_blank"
+                  className="text-blue-600 font-bold flex items-center gap-2"
+                >
+                  Candidate Guidelines <ArrowRight size={16} />
+                </Link>
+              </div>
             </div>
+
           </div>
+
         </div>
+
       </section>
 
       {/* --- MISSION & VISION SECTION --- */}
