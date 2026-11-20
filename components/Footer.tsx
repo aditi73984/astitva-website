@@ -118,11 +118,12 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-            <Link 
-              href="/contact" 
-              className="mt-8 flex items-center justify-between p-4 bg-[#1747A3] text-white rounded-xl font-bold text-xs uppercase tracking-widest shadow-lg shadow-blue-200 hover:bg-blue-700 transition-all"
+            <Link
+              href="/contact"
+              className="group flex items-center justify-between px-6 py-4 bg-[#FF9F1C] text-[#17345E] rounded-xl font-extrabold text-xs uppercase tracking-widest hover:bg-[#FFB547] transition-all shadow-[0_8px_25px_rgba(255,159,28,0.25)] hover:shadow-[0_10px_30px_rgba(255,159,28,0.4)] hover:-translate-y-1"
             >
-              Book Session <ArrowRight size={16} />
+              BOOK SESSION
+              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>
