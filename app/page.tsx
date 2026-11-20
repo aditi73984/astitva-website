@@ -88,9 +88,9 @@ const HomePage: React.FC = () => {
               >
                 Explore Services <ArrowRight size={18} />
               </button>
-              <button 
+              <button
                 onClick={() => router.push('/contact')}
-                className="px-10 py-4 border-2 border-white/40 hover:bg-white/10 rounded-xl font-bold transition-all active:scale-95"
+                className="px-10 py-4 bg-[#FF9F1C] text-[#17345E] rounded-xl font-extrabold hover:bg-[#FFB547] transition-all shadow-[0_8px_25px_rgba(255,159,28,0.3)] hover:shadow-[0_10px_30px_rgba(255,159,28,0.45)] hover:-translate-y-1 active:scale-95"
               >
                 Book Appointment
               </button>
